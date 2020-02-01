@@ -53,7 +53,7 @@ public static String decrypt(String strToDecrypt, String secret) {
 
 public static void main(String[] args)
 {
-    String originalString = "howtodoinjava.com";
+    String originalString = "howtodoinjava";
      
     String encryptedString = AES.encrypt(originalString, secretKey) ;
     String decryptedString = AES.decrypt(encryptedString, secretKey) ;
